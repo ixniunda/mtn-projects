@@ -8,7 +8,7 @@
     <groupId>com.mtn.training</groupId>
     <artifactId>maven</artifactId>
     <packaging>jar</packaging>
-    <version>${project.name}-${project.version}:${maven.build.timestamp}</version>
+    <version>1.01</version>
     <name>maven-task</name>
 
  <dependencies>

@@ -71,11 +71,11 @@
 <distributionManagement>
  <snapshotRepository>
   <id>nexus</id>
-  <url>http://localhost/nexus/repository/maven-snapshots/</url>
+  <url>http://localhost/nexus/repository/nexus/</url>
  </snapshotRepository>
  <repository>
   <id>nexus</id>
-  <url>http://localhost/nexus/repository/maven-snapshots/</url>
+  <url>http://localhost/nexus/repository/nexus/</url>
  </repository>
 </distributionManagement>
 

@@ -7,7 +7,6 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mtn.training</groupId>
     <artifactId>maven</artifactId>
-    <packaging>jar</packaging>
     <packaging>war</packaging>
     <version>1.01</version>
     <name>maven-task</name>

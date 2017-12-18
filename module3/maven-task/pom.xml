@@ -88,11 +88,10 @@
     <artifactId>wildfly-maven-plugin</artifactId>
     <version>1.2.1.Final</version>
 	<configuration>
-	 <hostname>localhost</hostname>
+	 <hostname>127.0.0.1</hostname>
 	 <port>9990</port>
 	 <username>jboss</username>    
 	 <password>jboss123</password>
-	 <filename>maven-1.01.war</filename>
 	</configuration>
       <executions>
        <execution>

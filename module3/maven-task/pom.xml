@@ -107,7 +107,7 @@
 
 </build>
 
-<!--
+<!-- test hook
 <distributionManagement>
  <snapshotRepository>
   <id>nexus</id>

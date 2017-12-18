@@ -87,12 +87,6 @@
     <groupId>org.wildfly.plugins</groupId>
     <artifactId>wildfly-maven-plugin</artifactId>
     <version>1.2.1.Final</version>
-     <executions>
-       <execution>
-         <phase>package</phase>
-	   <goals>
-   	    <goal>deploy</goal>
-	   </goals>
 	<configuration>
 	 <hostname>localhost</hostname>
 	 <port>9990</port>
@@ -100,6 +94,13 @@
 	 <password>jboss123</password>
 	 <filename>target/maven-task.war</filename>
 	</configuration>
+      <executions>
+       <execution>
+         <phase>package</phase>
+	   <goals>
+   	    <goal>deploy</goal>
+	   </goals>
+	
 	</execution>
       </executions>
 </plugin>

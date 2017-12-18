@@ -108,6 +108,7 @@
 </plugins>
 </build>
 
+<!--
 <distributionManagement>
  <snapshotRepository>
   <id>nexus</id>
@@ -118,6 +119,6 @@
   <url>http://localhost/nexus/repository/nexus/</url>
  </repository>
 </distributionManagement>
-
+ -->
 
 </project>
